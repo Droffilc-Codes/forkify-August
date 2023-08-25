@@ -16,3 +16,4 @@ class ResultView extends View {
 }
 
 export default new ResultView()
+//resultsView.js
