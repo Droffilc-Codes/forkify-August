@@ -154,6 +154,10 @@ const controlAddRecipe = async function(newRecipe){
   // console.log(newRecipe)
 }
 
+const newFeature = function(){
+  console.log("Welcome to the Applciation")
+}
+
 const init = function(){
   bookmarkView.addHandlerRender(controlBookmark)
   recipeView.addHandlerRender(controlRecipes)
@@ -162,6 +166,6 @@ const init = function(){
   searchView.addHandlerSearch(controlSearchResult)
   paginationView.addHandlerClick(controlPagination)
   addRecipeView.addHandlerUpload(controlAddRecipe)
-  console.log("Welcome")
+  newFeature()
 }
 init()
